@@ -7,13 +7,13 @@ import './App.css'
 function App() {
   return (
     <>
-     <div className='w-full h-screen bg-gradient-to-r from-sky-500 to-indigo-500'>
+     <div >
           <BrowserRouter>
           <Navbar/>
 
           <Routes>
            
-          <Route path='/'  element={<Dashboard panel="home"/>}/>
+          <Route path='/'  element={<Dashboard panel="news"/>}/>
           <Route path='/album'  element={<Dashboard panel="album"/>}/>
           <Route path='/board'  element={<Dashboard panel="board"/>}/>
           <Route path='/contact'  element={<Dashboard panel="contact"/>}/>

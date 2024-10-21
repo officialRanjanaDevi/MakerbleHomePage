@@ -2,7 +2,7 @@ import React from 'react'
 
 const Organization = () => {
   return (
-    <div>
+    <div className='bg-neutral-100 h-full mr-1 rounded-lg p-2'>
       organization
     </div>
   )

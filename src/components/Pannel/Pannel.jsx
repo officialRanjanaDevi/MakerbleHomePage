@@ -1,5 +1,4 @@
 import React from 'react'
-import Home from '../Home/Home.jsx'
 import Album from '../Album/Album.jsx'
 import Board from '../Board/Board.jsx'
 import Contact from '../Contact/Contact.jsx'
@@ -9,12 +8,13 @@ import Organization from '../Organization/Organization.jsx'
 import PersonalProgress from '../PersonalProgress/PersonalProgress.jsx'
 import Project from '../Project/Project.jsx'
 import Task from '../Task/Task.jsx'
+import Newsfeed from '../Newsfeed/Newsfeed.jsx'
 const Pannel = (props) => {
     const {panel}=props.panel;
     console.log(panel)
     return (
-    <div className=' w-full h-full rounded-md px-2 pb-2'>
-        {panel==='home'&&<Home/>}
+    <div className=' w-full md:w-5/6 h-full'>
+        {panel==='news'&&<Newsfeed/>}
         {panel==='album'&&<Album/>}
         {panel==='board'&&<Board/>}
         {panel==='contact'&&<Contact/>}
