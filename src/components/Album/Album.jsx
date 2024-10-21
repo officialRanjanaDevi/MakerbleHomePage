@@ -64,8 +64,8 @@ const Album = () => {
   
   return (
     
-     <div className='bg-neutral-100 h-full mr-1 rounded-lg p-2'>
-      <h1 className='text-center font-bold'>ALBUM</h1>
+     <div className='bg-neutral-100 h-full mr-1 rounded-lg p-2 flex flex-col items-center'>
+      <h1 className='text-center font-bold text-lg'>Album</h1>
       <div className='overflow-y-scroll h-[95%] grid  justify-center sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 p-4'>
       {
         albumArray.map((info, index) => (
@@ -73,7 +73,7 @@ const Album = () => {
         ))
       }
       </div> 
-
+      <button className=' py-1 bg-red-600 mt-2 px-3 w-fit rounded-md text-white hover:bg-red-500 hover:scale-110 duration-700'>Add New Album</button>
     </div>
 
     

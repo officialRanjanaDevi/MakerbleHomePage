@@ -119,15 +119,16 @@ const Newsfeed = () => {
   
 
   return (
-    <div className='bg-neutral-100 h-full mr-1 rounded-lg p-2'>
-      <h1 className='text-center font-bold'>NEWSFEED</h1>
-     <div className='overflow-y-scroll h-[95%] grid grid-cols-1 xl:grid-cols-2 gap-6 p-4'>
+    <div className='bg-neutral-100 h-full mr-1 rounded-lg p-2 flex flex-col items-center'>
+      <h1 className='text-center font-bold text-lg'>Newsfeed</h1>
+     <div className='overflow-y-scroll h-[90%] grid grid-cols-1 xl:grid-cols-2 gap-6 p-4'>
       {
         newsArray.map((news, index) => (
           <NewsCard key={index} data={news} />
         ))
       }
       </div> 
+      <button className=' py-1 bg-red-500 mt-2 px-3 w-fit rounded-md text-white hover:bg-red-400 hover:scale-110 duration-700'>Share Latest News</button>
      
     </div>
   )

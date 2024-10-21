@@ -20,7 +20,7 @@ function App() {
           <Route path='/event' element={<Dashboard panel="event"/>}/>
           <Route path='/follow'  element={<Dashboard panel="follow"/>}/>
           <Route path='/organization'  element={<Dashboard panel="organization"/>}/>
-          <Route path='/personalprogress'  element={<Dashboard panel="personalProgress"/>}/>
+          <Route path='/personalprogress'  element={<Dashboard panel="personalprogress"/>}/>
           <Route path='/project'  element={<Dashboard panel="project"/>}/>
           <Route path='/task'  element={<Dashboard panel="task"/>}/>
             
