@@ -21,8 +21,6 @@ const AlbumCard = (info) => {
   const handleClose = () => setOpen(false);
 
   const data = info.data;
-  console.log(data);
-
   return (
     <>
        

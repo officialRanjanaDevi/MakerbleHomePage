@@ -11,7 +11,7 @@ import Task from '../Task/Task.jsx'
 import Newsfeed from '../Newsfeed/Newsfeed.jsx'
 const Pannel = (props) => {
     const {panel}=props.panel;
-    console.log(panel)
+   
     return (
     <div className=' w-full md:w-5/6 h-full'>
         {panel==='news'&&<Newsfeed/>}
