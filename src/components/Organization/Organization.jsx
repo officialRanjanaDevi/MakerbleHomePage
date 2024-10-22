@@ -6,25 +6,27 @@ const Organization = () => {
     {
       logo: `${images.album5}`,
       organization: "Organization Alpha",
-      admin:"Admin"
+      post:"Admin"
     },
     {
       logo: `${images.album2}`,
       organization: "Organization Beta",
+      post:"Member"
     },
     {
       logo: `${images.album8}`,
       organization: "Organization Gamma",
-       admin:"Admin"
+       post:"Admin"
     },
     {
       logo: `${images.album7}`,
       organization: "Organization Delta",
+        post:"Member"
     },
     {
       logo: `${images.album6}`,
       organization: "Organization Epsilon",
-       admin:"Admin"
+       post:"Admin"
     },
     
   ];
@@ -37,9 +39,9 @@ const Organization = () => {
             <div key={index} className="border-2 border-neutral-300 rounded-md h-fit relative hover:scale-105 hover:duration-700">
               <img src={organization.logo} className="h-40 w-full rounded-t-md"></img>
                <h2 className="text-center font-bold pt-2">{organization.organization}</h2>
-               <h2 className="text-center text-sm text-neutral-500 ">{organization.admin}</h2>
+               <h2 className="text-center text-sm text-neutral-500 ">{organization.post}</h2>
                
-               <SettingsIcon className="text-sky-600 absolute top-1 right-1"/>
+               {organization.post==="Admin"?<SettingsIcon className="text-sky-600 absolute top-1 right-1"/>:""}
             </div>
           ))
         }

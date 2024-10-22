@@ -14,7 +14,7 @@ import album7 from './album7.jpg'
 import album8 from './album8.jpg'
 import project1 from './project1.jpg'
 import project2 from './project2.jpg'
-
+import rainbow from './rainbow.png'
 const images ={
     logo,
     name,
@@ -31,7 +31,8 @@ const images ={
     album7,
     album8,
     project1,
-    project2
+    project2,
+    rainbow
 }
 
 export default images;

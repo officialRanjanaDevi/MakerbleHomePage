@@ -40,7 +40,7 @@ const Sidebar = () => {
     { label: 'Events', color: 'rgba(126,199,84,255)', icon: <CalendarMonthOutlinedIcon sx={{ fontSize: '1.2rem' }} />, link: '/event' },
     { label: 'Following', color: 'rgba(112,178,70,255)', icon: <PeopleOutlinedIcon sx={{ fontSize: '1.2rem' }} />, link: '/follow' },
     { label: 'Organizations', color: 'rgba(66,156,146,255)', icon: <CorporateFareOutlinedIcon sx={{ fontSize: '1.2rem' }} />, link: '/organization' },
-    { label: 'Personal Progress', color: 'rgba(75,157,215,255)', icon: <GradeOutlinedIcon sx={{ fontSize: '1.2rem' }} />, link: '/personalprogress' },
+    { label: 'Personal Progress', color: 'rgba(66,156,146,255)', icon: <GradeOutlinedIcon sx={{ fontSize: '1.2rem' }} />, link: '/personalprogress' },
     { label: 'Projects', color: 'rgba(63,107,142,255)', icon: <FactCheckOutlinedIcon sx={{ fontSize: '1.2rem' }} />, link: '/project' },
     { label: 'Tasks', color: 'rgba(179,75,162,255)', icon: <AssignmentTurnedInOutlinedIcon sx={{ fontSize: '1.2rem' }} />, link: '/task' },
   ];

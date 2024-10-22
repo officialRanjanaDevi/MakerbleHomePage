@@ -1,0 +1,17 @@
+.link-hover{
+    @apply hover:text-neutral-600 hover:translate-x-1 hover:cursor-pointer
+}
+
+.contact-link-hover{
+    @apply hover:translate-x-1 hover:cursor-pointer 
+}
+
+.icon-hover{
+    @apply hover:scale-105 hover:cursor-pointer w-fit p-2 px-3 mr-1 rounded-sm text-white
+}
+
+#top-border {
+    background: linear-gradient(90deg, rgba(255,117,120,255) 10%, rgba(244,65,45,255) 20%,rgba(243,121,38,255) 30%,rgba(255,159,45,255) 40%,rgba(126,199,84,255) 50%, rgba(112,178,70,255)60%, rgba(66,156,146,255)70%,rgba(66,156,146,255)80%,rgba(63,107,142,255)90%,rgba(179,75,162,255));
+    @apply font-sans;
+    
+  }
